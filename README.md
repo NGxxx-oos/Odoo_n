@@ -326,7 +326,7 @@ self.env.cr.execute("""
 Debug Mode
 bash
 # Run with debug
-odoo-bin --addons-path=addons --update sale_senior --debug
+odoo-bin --addons-path=addons --update sale_n --debug
 🤝 Contributing
 Development Workflow
 Fork repository

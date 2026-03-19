@@ -148,7 +148,7 @@ yaml
 services:
   odoo:
     volumes:
-      - ./odoo_n:/mnt/extra-addons/odoo_senior
+      - ./odoo_n:/mnt/extra-addons/odoo_n
 ⚙️ Configuration
 Basic Configuration
 Employee Access

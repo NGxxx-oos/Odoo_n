@@ -103,27 +103,6 @@ Multi-company Support: Company-aware field domains
 
 Audit Trail: Complete change history
 
-🏗 Technical Architecture
-Module Structure
-text
-odoo_n/
-├── models/                 # Business logic and ORM models
-│   ├── sale_order.py      # Sale order extensions
-│   └── sale_order_line.py # Line-level operations
-├── services/               # Service layer
-│   └── field_generator_service.py
-├── views/                  # UI templates
-│   ├── sale_order_views.xml
-│   └── templates.xml
-├── security/               # Access control
-│   ├── ir.model.access.csv
-│   └── sale_order_security.xml
-├── data/                   # Demo and initial data
-├── tests/                  # Test suite
-│   ├── test_sale_order.py
-│   └── test_performance.py
-└── wizards/                # Bulk operations
-    └── bulk_update_wizard.py
 Design Patterns
 Pattern	Implementation	Purpose
 Service Layer	FieldGeneratorService	Business logic encapsulation

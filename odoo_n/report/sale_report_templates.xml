@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_saleorder_document_inherit_odoo_n" inherit_id="sale.report_saleorder_document">
+        <xpath expr="//div[@id='informations']" position="after">
+            <div class="row mt32 mb32" id="new_field_display">
+                <div class="col-auto mw-100 mb-2">
+                    <strong>New Field:</strong>
+                    <p class="m-0" t-if="doc.new_field" t-field="doc.new_field"/>
+                    <p class="m-0" t-else="">Поле New Field пустое!!!</p>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

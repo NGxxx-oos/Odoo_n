@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_order_form_inherit_odoo_n" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit.odoo_n</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='payment_term_id']" position="after">
+                <field name="responsible_delivery_id" options="{'no_create': True}"/>
+                <field name="new_field" 
+                       invisible="state == 'sale'"
+                       readonly="state != 'draft'"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

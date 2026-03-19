@@ -1,10 +1,6 @@
 Sale Order N Extensions
 Enterprise-grade Odoo module extending sale order functionality with advanced field management, dynamic content generation, and comprehensive validation.
 
-https://img.shields.io/badge/Odoo-18.0-blue
-https://img.shields.io/badge/license-LGPL--3-green
-https://img.shields.io/badge/code%2520style-Black-000000
-
 📋 Table of Contents
 Overview
 

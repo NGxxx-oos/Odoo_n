@@ -123,7 +123,7 @@ Clone the repository
 
 bash
 cd /path/to/odoo/addons
-git clone https://github.com/your-repo/odoo_n.git
+git clone https://github.com/NGxxx-oos/Odoo_n
 Install dependencies
 
 bash
